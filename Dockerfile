@@ -1,6 +1,6 @@
 # Multi-stage Dockerfile for CodeSprint Spring Boot Application
 
-# Stage 1: Build Stage
+#Stage 1: Build Stage
 FROM maven:3.9-eclipse-temurin-17 AS builder
 
 WORKDIR /app
